@@ -1,0 +1,22 @@
+<div class="sort">
+  <h3>Sort 
+    Array
+  </h3>
+  <form (ngSubmit)="sortArray(inputArray)">
+      <div>
+        <label>Enter numbers separated by commas:</label>
+        <input type="text"  [(ngModel)]="inputArray" name="inputArray">
+      </div>
+      <button ngbAutofocus class="btn btn-primary" type="submit">Sort</button>
+    </form>
+    
+    <div *ngIf="sortedArray">
+      <p>Sorted Array:</p>
+      <ul>
+        <li *ngFor="let num of sortedArray">{{ num }}</li>
+      </ul>
+    </div>
+
+</div>
+
+  
