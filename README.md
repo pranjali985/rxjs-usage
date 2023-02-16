@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
+run npm install to get node modules 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -10,18 +12,19 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Application working
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Header component contains routes to observable and subject page
 
-## Running unit tests
+# Home component corresponds to Observable page:
+Demonstrates the use of observable and operators using a sort function
+when user enters numbers in comma separated format,the sorted output can be seen listed form
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# comps,subject,app-services are used to subject page:
 
-## Running end-to-end tests
+comps folder inturn contains comp1,comp2,comp3 components
+once user enters the required username either in comp1,comp2,comp3 changes are reflected in comp1,comp2,comp3 and even in subject component demonstrating component communication using subject
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
